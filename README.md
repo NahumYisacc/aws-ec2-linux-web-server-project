@@ -51,13 +51,23 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 ## Next Steps
 
 
+## EC2 Instance Running
+![EC2 Instance Running](screenshots/ec2 instance.png)
 
-![EC2 Instance Running](screenshots/screenshots/ec2 instance.png)
-![Instance Details](screenshots/screenshots/instance detail.png)
-![Security Group Rules](screenshots/screenshots/security group rule.png)
-![SSH Connection](screenshots/screenshots/ec2 terminal.png)
-![Apache Running](screenshots/screenshots/status active.png)
-![Webpage Screenshot](screenshots/screenshots/browser.png)
+## Instance Details
+![Instance Details](screenshots/instance detail.png)
+
+## Security Group Inbound Rules
+![Security Group Rules](screenshots/security group rule.png)
+
+## SSH Connection
+![SSH Connection](screenshots/ec2 terminal.png)
+
+## Apache Service Running
+![Apache Running](screenshots/status active.png)
+
+## Webpage Successfully Loaded
+![Webpage Screenshot](screenshots/browser.png)
 
 
 - Add a custom domain using Route 53  
