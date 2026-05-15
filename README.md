@@ -1,7 +1,5 @@
-# aws-ec2-linux-web-server-project
+# AWS EC2 Linux Web Server Project
 Deployed an EC2 Linux web server with Apache and hosted a custom webpage.
-
-# AWS EC2 Linux Web Server
 
 ## Project Overview
 This project demonstrates how I launched an EC2 instance, connected to it, installed Apache, and hosted a simple webpage on a Linux server.  
@@ -20,7 +18,7 @@ User → Browser → EC2 Public IP → Apache Web Server → HTML Page
 - Launched an EC2 instance (Amazon Linux 2)  
 - Created and attached a security group allowing SSH (22) and HTTP (80)  
 - Connected to the instance using SSH  
-- Installed Apache (`sudo yum install httpd -y`)  
+- Installed Apache (sudo yum install httpd -y)  
 - Started and enabled the Apache service  
 - Created a custom index.html file  
 - Verified the webpage using the EC2 public IP  
@@ -45,11 +43,17 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 - EC2 management  
 - Linux commands  
 - Web server setup  
-- Networking & security groups  
+- Networking and security groups  
 - Troubleshooting  
 
 ## Next Steps
-
+To continue improving this project, I plan to:
+- Add a custom domain using Route 53  
+- Enable HTTPS using an Application Load Balancer and ACM  
+- Deploy a more advanced multi-page website  
+- Automate the entire setup using a user data script  
+- Add monitoring and alerts using CloudWatch  
+- Create a version-controlled deployment using Git and CodeDeploy  
 
 ## EC2 Instance Running
 ![EC2 Instance Running](screenshots/ec2instance.png)
@@ -68,4 +72,3 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 
 ## Webpage Successfully Loaded
 ![Webpage Screenshot](screenshots/browser.png)
-
