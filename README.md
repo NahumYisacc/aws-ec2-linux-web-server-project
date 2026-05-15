@@ -52,19 +52,19 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 
 
 ## EC2 Instance Running
-![EC2 Instance Running](screenshots/ec2 instance.png)
+![EC2 Instance Running](screenshots/ec2instance.png)
 
 ## Instance Details
-![Instance Details](screenshots/instance detail.png)
+![Instance Details](screenshots/instancedetail.png)
 
 ## Security Group Inbound Rules
-![Security Group Rules](screenshots/security group rule.png)
+![Security Group Rules](screenshots/securitygrouprule.png)
 
 ## SSH Connection
-![SSH Connection](screenshots/ec2 terminal.png)
+![SSH Connection](screenshots/ec2terminal.png)
 
 ## Apache Service Running
-![Apache Running](screenshots/status active.png)
+![Apache Running](screenshots/statusactive.png)
 
 ## Webpage Successfully Loaded
 ![Webpage Screenshot](screenshots/browser.png)
