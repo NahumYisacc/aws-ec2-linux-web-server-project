@@ -69,8 +69,3 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 ## Webpage Successfully Loaded
 ![Webpage Screenshot](screenshots/browser.png)
 
-
-- Add a custom domain using Route 53  
-- Add HTTPS using an Application Load Balancer  
-- Deploy a more advanced website  
-- Automate setup with a user data script  
