@@ -49,6 +49,29 @@ echo "<h1>Hello from Nahum's EC2 Web Server!</h1>" | sudo tee /var/www/html/inde
 - Troubleshooting  
 
 ## Next Steps
+
+
+
+# AWS EC2 Linux Web Server Project
+
+## EC2 Instance Running
+![EC2 Instance Running](screenshots/nMhVhzN3RMqVUn38u2gun.png)
+
+## Instance Details
+![Instance Details](screenshots/fVQL1rhiUVrn96kjKzm1H.png)
+
+## Security Group Inbound Rules
+![Security Group Rules](screenshots/hbcjXcypXQfAVqG5D77qb.png)
+
+## SSH Connection
+![SSH Connection](screenshots/BnCHD9it99KCWz8o9YLrc.png)
+
+## Apache Service Running
+![Apache Running](screenshots/D5pvZdCU4M8km32yEjKK1.png)
+
+## Webpage Successfully Loaded
+![Webpage Screenshot](screenshots/v25Tc3qawqewbmHkWR161.png)
+
 - Add a custom domain using Route 53  
 - Add HTTPS using an Application Load Balancer  
 - Deploy a more advanced website  
